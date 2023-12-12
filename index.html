@@ -11,10 +11,40 @@
       referrerpolicy="no-referrer"
     /> -->
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <title>Starter_BoilerPlate</title>
+    <title>Github_Profiles</title>
   </head>
   <body>
-    <h1>Hello, This is starter Boiler_Plate...</h1>
+    <form class="user-form" id="form">
+      <input type="search" id="search" placeholder="Search a github user..." />
+    </form>
+
+    <main id="main">
+      <div class="card">
+        <img
+          src="https://randomuser.me/api/portraits/men/45.jpg"
+          alt="avatar_img"
+          class="avatar"
+        />
+        <div class="user-info">
+          <h2>JohnDoe</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere,
+            quidem?
+          </p>
+          <ul>
+            <li>300<strong>Followers</strong></li>
+            <li>100<strong>Following</strong></li>
+            <li>30<strong>Repos</strong></li>
+          </ul>
+
+          <div id="repos">
+            <a href="#" class="repos">Repo-1</a>
+            <a href="#" class="repos">Repo-2</a>
+            <a href="#" class="repos">Repo-3</a>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <script src="script.js"></script>
   </body>
